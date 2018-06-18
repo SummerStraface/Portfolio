@@ -2,7 +2,9 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-
+#portfolio, #about, #contact {
+    height: 400px;
+}
 .full-width {
     width: 1200px;
     margin: 0 auto;
