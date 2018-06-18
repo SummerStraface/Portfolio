@@ -1,0 +1,95 @@
+/******BASE STYLES*****/
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.half-width {
+    width: 600px;
+    float: left;
+    margin: 0 auto;
+}
+
+
+header {
+    height: 400px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: "Lato";
+    font-size: 35px;
+    color: #095156;
+   
+}
+
+nav {
+    float: right;
+    padding: 50px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #095156;
+    padding-left: 30px;
+    
+}
+
+header h2 {
+    font-family: "Lato";
+    font-size: 50px;
+    color: #508d7e;
+}
+
+
+header p {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #095156;
+}
+
+
+#portfolio h2 {
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #bdbf09;
+
+}
+
+#rogue {
+   width: 600px;
+  text-align: center;
+    
+}
+
+#jubilee {
+    width: 600px;
+    text-align: center;
+}
+
+#about {
+    text-align: inherit;
+}
+
+footer #contact h2 {
+    text-align: center;
+
+}
+
+
+
+
