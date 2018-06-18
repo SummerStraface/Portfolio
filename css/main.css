@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 #portfolio, #about, #contact {
-    height: 400px;
+    height: 450px;
 }
 .full-width {
     width: 1200px;
@@ -62,7 +62,10 @@ header p {
     color: #095156;
 }
 
-
+#portfolio {
+    background: lightgray;
+    margin: 0 auto;
+}
 #portfolio h2 {
     text-align: center;
     font-family: "Lato";
@@ -73,21 +76,29 @@ header p {
 }
 
 #rogue {
-   width: 600px;
+   width: 500px;
   text-align: center;
+  padding: 20px 50px;
     
 }
 
 #jubilee {
-    width: 600px;
+    width: 500px;
     text-align: center;
+    padding: 20px 50px;
 }
 
 #about {
-    text-align: inherit;
+    background: #508d7e;
+    margin: 0 auto;
 }
 
-footer #contact h2 {
+
+
+#contact {
+    background: lightgray
+}
+#contact h2 {
     text-align: center;
 
 }
