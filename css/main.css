@@ -1,42 +1,51 @@
-/******BASE STYLES*****/
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-sarif;
 }
-#portfolio, #about, #contact {
-    height: 450px;
+
+#porfolio, #about, #contact {
+    height: 600px;
 }
+/*****GRID*****/
+
 .full-width {
     width: 1200px;
     margin: 0 auto;
-    
+
 }
 .half-width {
     width: 600px;
     float: left;
-    margin: 0 auto;
 }
 
-
+/*****HEADER*****/
 header {
-    height: 400px;
+    height: 550px;
     background: url('../img/hero-image.png');
     background-size: cover;
+    
 }
-
-header h1 {
-    font-family: "Lato";
+header h1{
+    font-family: 'Lato';
     font-size: 35px;
     color: #095156;
-   
 }
+
+    header p {
+        font-family:'Roboto', sans-sarif;
+        font-size: 22px;
+        color: #095156;
+    }
+
 
 nav {
     float: right;
-    padding: 50px 40px;
+    padding: 50px 35x;
+    
 }
 
 nav ul li {
     display: inline-block;
+    background: #f0f8f6;
 }
 
 nav ul li a {
@@ -45,64 +54,62 @@ nav ul li a {
     font-size: 20px;
     font-weight: 700;
     color: #095156;
-    padding-left: 30px;
-    
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 header h2 {
-    font-family: "Lato";
-    font-size: 50px;
-    color: #508d7e;
-}
-
-
-header p {
-    font-family: "Roboto";
-    font-size: 20px;
+    width: 1000px;
+    clear: both;
+    font-family: 'Lato';
+    font-size: 70px;
     color: #095156;
+    padding: 20px 0;
+}
+header h2 span {
+    color:#6ead9e;
+
 }
 
-#portfolio {
-    background: lightgray;
-    margin: 0 auto;
-}
-#portfolio h2 {
+/****PORTFOLIO****/
+#portfolio .full-width h2{
+    font-family: 'Lato';
+    font-weight: 700;
     text-align: center;
-    font-family: "Lato";
-    font-weight: 700px;
-    text-transform: uppercase;
     color: #bdbf09;
+}
 
+#portfolio .full-width {
+    font-family: 'Roboto';
+    text-align: center;
+    height: 550px;
 }
 
 #rogue {
-   width: 500px;
-  text-align: center;
-  padding: 20px 50px;
-    
+    width: 520px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #6ead9e;
 }
+ #rogue h3, p {
+     color: #095156;
+ }
 
 #jubilee {
-    width: 500px;
-    text-align: center;
-    padding: 20px 50px;
+    width: 520px;
+    height: 393px;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    border: 2px solid #6ead9e;
 }
 
-#about {
-    background: #508d7e;
-    margin: 0 auto;
+#jubilee h3, p {
+    color: #095156;
 }
 
-
-
-#contact {
-    background: lightgray
+h1,h2,h3 {
+    font-family: "Lato";
 }
-#contact h2 {
-    text-align: center;
-
-}
-
-
-
+/*****ABOUT*****/
 
