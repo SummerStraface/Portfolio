@@ -2,9 +2,10 @@ body {
     font-family: 'Roboto', sans-sarif;
 }
 
-#porfolio, #about, #contact {
+#porfolio,  {
     height: 600px;
 }
+
 /*****GRID*****/
 
 .full-width {
@@ -30,10 +31,10 @@ header h1{
     color: #095156;
 }
 
-    header p {
-        font-family:'Roboto', sans-sarif;
-        font-size: 22px;
-        color: #095156;
+header p {
+    font-family:'Roboto', sans-sarif;
+    font-size: 22px;
+    color: #095156;
     }
 
 
@@ -46,6 +47,7 @@ nav {
 nav ul li {
     display: inline-block;
     background: #f0f8f6;
+
 }
 
 nav ul li a {
@@ -113,3 +115,57 @@ h1,h2,h3 {
 }
 /*****ABOUT*****/
 
+#about {
+    background: #f0f8f6;
+    height: 400px;
+}
+#about .half-width{
+    width: 500px;
+}
+
+#about img {
+    padding:30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 2px solid #6ead9e;
+
+}
+#about h2 {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 700;
+    color: #095156;
+}
+#contact .full-width {
+    text-align: center;
+    margin: 0 auto;
+}
+#contact .full-width h2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    text-align: center;
+    color: #bdbf09;
+}
+#contact .third-width {
+    width:340px;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+#contact {
+    height: 350px;
+}
+#contact h4 {
+    font-family: "Lato";
+    color: #095156;
+}
+#contact #hire-me a{
+    color: #095156;
+
+}
+
+#contact #follow-me a {
+color:#bdbf09;
+padding: 8px;
+}
