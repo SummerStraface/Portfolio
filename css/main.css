@@ -93,9 +93,17 @@ header h2 span {
     margin: 10px;
     border: 2px solid #6ead9e;
 }
- #rogue h3, p {
+ #rogue p {
      color: #095156;
+    
  }
+ #rogue a:link {
+    color: #095156;
+}
+
+#rogue a:visited {
+   color: #6ead9e;
+}
 
 #jubilee {
     width: 520px;
@@ -106,8 +114,16 @@ header h2 span {
     border: 2px solid #6ead9e;
 }
 
-#jubilee h3, p {
+#jubilee p {
     color: #095156;
+}
+
+#jubilee a:link {
+    color: #095156;
+}
+
+#jubilee a:visited {
+   color: #6ead9e;
 }
 
 h1,h2,h3 {
@@ -169,3 +185,5 @@ h1,h2,h3 {
 color:#bdbf09;
 padding: 8px;
 }
+
+

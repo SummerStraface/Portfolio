@@ -1,0 +1,131 @@
+/****BASE STYLES****/
+body{ 
+    font-family: 'Montserrat';
+}
+/****GRID****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid lightgray;
+}
+ footer  h3 span {
+     font-family: 'Pacifico';
+     color: #77a466;
+     
+
+ }
+ /*****HEADER*****/
+header h1 {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    height: 30px
+}
+header h1 span {
+    color: #77a466;
+}
+   
+nav {
+    float: right;
+    padding: 30px 30px;
+    height: 30px
+}
+
+nav ul li {
+    display: inline-block; 
+    color: #77a466;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 10px;
+   
+
+}
+
+#banner {
+     height: 400px;
+     background-size: cover;
+     padding: 10px 0;
+    
+     
+    
+
+
+ }
+/****WELCOME****/
+#welcome h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #77a466;
+    padding: 5px 0;
+
+}
+
+#welcome p {
+    font-size: 16px;
+    color: #000000;
+
+}
+
+/****BOTTOM****/
+
+ h5 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+ 
+#specials p {
+    font-size: 16px;
+    line-height: 35px;
+    color:#77a466;
+    text-align: left;
+  
+}
+#bottom {
+    border-top: 1px solid lightgray;
+
+}
+
+#specials {
+width: 350px;
+padding:20px;
+}
+
+#reviews {
+ text-align: left;
+ width: 350px;
+ padding: 30px;
+ border-left: 1px solid lightgray;
+ border-right: 1px solid lightgray;
+}
+
+#contact-info {
+text-align: justify;
+padding:20px;
+width: 350px;
+
+}
+#banner-img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
