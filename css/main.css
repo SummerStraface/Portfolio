@@ -152,6 +152,10 @@ h1,h2,h3 {
     font-weight: 700;
     color: #095156;
 }
+
+#about p {
+    color: #095156;
+}
 #contact .full-width {
     text-align: center;
     margin: 0 auto;
