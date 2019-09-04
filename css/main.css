@@ -6,17 +6,6 @@ body {
     height: 600px;
 }
 
-/*****GRID*****/
-
-.full-width {
-    width: 1200px;
-    margin: 0 auto;
-
-}
-.half-width {
-    width: 600px;
-    float: left;
-}
 
 /*****HEADER*****/
 header {
@@ -29,11 +18,14 @@ header h1{
     font-family: 'Lato';
     font-size: 35px;
     color: #095156;
+
 }
 
 header p {
+    background: rgba(240, 248, 246, 0.6);
     font-family:'Roboto', sans-sarif;
     font-size: 22px;
+    max-width: 100%;
     color: #095156;
     }
 
@@ -45,8 +37,8 @@ nav {
 }
 
 nav ul li {
-    display: inline-block;
-    background: #f0f8f6;
+    display: inline;
+    background: rgba(240, 248, 246, 0.8);
 
 }
 
@@ -56,8 +48,8 @@ nav ul li a {
     font-size: 20px;
     font-weight: 700;
     color: #095156;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 45px;
 }
 
 header h2 {
@@ -74,23 +66,21 @@ header h2 span {
 }
 
 /****PORTFOLIO****/
-#portfolio .full-width h2{
+#portfolio h2{
     font-family: 'Lato';
     font-weight: 700;
     text-align: center;
     color: #bdbf09;
 }
 
-#portfolio .full-width {
+#portfolio {
     font-family: 'Roboto';
     text-align: center;
     height: 550px;
 }
 
 #rogue {
-    width: 520px;
-    padding: 20px;
-    margin: 10px;
+    width: 50%;
     border: 2px solid #6ead9e;
 }
  #rogue p {
@@ -105,12 +95,25 @@ header h2 span {
    color: #6ead9e;
 }
 
+#unplugged {
+    width: 50%;
+    border: 2px solid #6ead9e;
+}
+
+#unplugged p {
+    color: #095156;
+}
+
+#unplugged a:link {
+    color: #095156;
+}
+
+#unplugged a:visited {
+   color: #6ead9e;
+}
+
 #jubilee {
-    width: 520px;
-    height: 392px;
-    padding: 20px;
-    margin: 10px;
-    margin-left: 20px;
+    width: 50%;
     border: 2px solid #6ead9e;
 }
 
@@ -136,13 +139,10 @@ h1,h2,h3 {
     height: 400px;
 }
 #about .half-width{
-    width: 500px;
+    width: 100%;
 }
 
 #about img {
-    padding:30px;
-    margin-left: 10px;
-    margin-top: 15px;
     border: 2px solid #6ead9e;
 
 }
@@ -160,34 +160,30 @@ h1,h2,h3 {
     text-align: center;
     margin: 0 auto;
 }
-#contact .full-width h2 {
+#contact h2 {
     font-family: 'Lato';
     font-weight: 700;
     text-align: center;
     color: #bdbf09;
 }
-#contact .third-width {
-    width:340px;
-    padding: 20px;
-    margin-left: 10px;
-    float: left;
-    text-align: center;
-}
 #contact {
+    width:100%:
+    text-align: center;
     height: 350px;
 }
 #contact h4 {
     font-family: "Lato";
     color: #095156;
+    
 }
 #contact #hire-me a{
     color: #095156;
-
+    text-align: center;
 }
 
 #contact #follow-me a {
 color:#bdbf09;
-padding: 8px;
+
 }
 
 
