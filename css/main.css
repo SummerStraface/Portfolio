@@ -3,7 +3,7 @@ body {
 }
 
 #porfolio,  {
-    height: 600px;
+    height: auto;
 }
 
 
@@ -18,6 +18,8 @@ header h1{
     font-family: 'Lato';
     font-size: 35px;
     color: #095156;
+    background: rgba(240, 248, 246, 0.6);
+    padding-left: 10px;
 
 }
 
@@ -53,7 +55,7 @@ nav ul li a {
 }
 
 header h2 {
-    width: 1000px;
+    width: 100%;
     clear: both;
     font-family: 'Lato';
     font-size: 70px;
@@ -76,7 +78,7 @@ header h2 span {
 #portfolio {
     font-family: 'Roboto';
     text-align: center;
-    height: 550px;
+    height: auto;
 }
 
 #rogue {
@@ -136,9 +138,7 @@ h1,h2,h3 {
 
 #about {
     background: #fbfbfb;
-    height: 400px;
-}
-#about .half-width{
+    height: auto;
     width: 100%;
 }
 
@@ -156,7 +156,9 @@ h1,h2,h3 {
 #about p {
     color: #095156;
 }
-#contact .full-width {
+/*******CONTACT*******/
+
+#contact  {
     text-align: center;
     margin: 0 auto;
 }
@@ -167,9 +169,9 @@ h1,h2,h3 {
     color: #bdbf09;
 }
 #contact {
-    width:100%:
+    width:100%;
     text-align: center;
-    height: 350px;
+    height: auto;
 }
 #contact h4 {
     font-family: "Lato";
