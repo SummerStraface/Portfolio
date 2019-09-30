@@ -167,8 +167,8 @@ h1,h2,h3 {
 
 #about img {
     border: 2px solid #6ead9e;
+    border-radius: 50%;
     
-
 }
 #about h2 {
     font-family: "Lato";
