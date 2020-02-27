@@ -13,37 +13,35 @@
     </head>
    
     <body>
-        <div class="container-fluid"><!--Container div start-->
-            <header>
-                <div class="row">
-                    <div class="col-lg-4 col-med-4 col-sm-4 col-xs-12">
-                        <h1>Summer Straface</h1>
-                    </div>            
-    <!-----------------------NAVIGATION---------------------->
-                    <div class="col-lg-8 col-med-8 col-sm-8 col-xs-12"> 
-                        <nav>
-                            <ul>          
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>        
-                            </ul>
-                        </nav>
-                    </div>  
-                </div><!--End row div-->
-    
-       
-                <div class="col-lg-12 col-med-12 col-sm-12 col-xs-12">
-                    <div class="holder">
-                        <h2>Oh, hey!</h2> 
-                        <br>
-                        <br>
-                        <p>I'm <span class="big-name">Summer</span> and I build 
-                        dynamic, user friendly websites. </p>
+            <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
+                    <a href="#" class="navbar-brand">Summer Straface</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"id="navLinks">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#about" class="nav-link">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                            <a href="#contact" class="nav-link">CONTACT</a>
+                            </li>
+                        </ul>
                     </div>
+            </nav>
+    <div class="container-fluid">
+        <section class="jumbotron text-center px-0">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h2 class="display-1">Oh, hey!</h2> 
+                    <p>I'm <span id="bigName">Summer</span> and I love to build dynamic, user-friendly websites.</p>  
                 </div>
-            
-        </header>
-    
+            </div>            
+        </section>
+   
        
            
     
@@ -53,57 +51,61 @@
            
                 <h2 class="text-center">My Portfolio</h2>
                 <div class="row">
-                    <div class="col-lg-4 col-med-4 col-sm-12 col-xs-12" id="rogue">
-                        <img class="img-responsive" src="img/rogue-pickings.png" alt="Rogue Pickings thumbnail" style="width:75%">
-                            <h3><a href="rogue_pickings/rogue-pickings.html"target="_blank">Rogue Pickings</a></h3>
-                        
-                                <p>A website for a local, farm-to-table traveling food truck.   
-                                    The design is eye-catching but uncomplicated, highlighting 
-                                    substance over flash.  I believe the site truly matches the company&apos;s mission.
-                                </p>
-                    </div>
-                    
-                    <div class="col-lg-4 col-med-4 col-sm-12 col-xs-12" id="jubilee">
-                        <img class="img-responsive" src="img/jubilee.png" alt="Jubilee Austen thumbnail" style="width:75%">
-                            <h3><a href="jubilee/jubilee.html" target="_blank">Jubilee Austen</a></h3>
-                            
-                                <p>A portfolio website for a front-end web developer.  
-                                    It&apos;s simple, clean and informative. 
-                                </p>
-    
+                    <div class="card col-12 col-med-4 col-lg-4" style="width: 18rem" id="rogue">
+                            <img src="img/rogue-pickings.png" class="card-img-top" alt="Rogue Pickings thumbnail">
+                            <div class="card-body">
+                                    <h4 class="card-title"><a href="rogue_pickings/rogue-pickings.html" target="_blank">Rogue Pickings</a></h4>
+                                <p class="card-text">A website for a local, farm-to-table traveling food truck.   
+                                        The design is eye-catching but uncomplicated, highlighting 
+                                        substance over flash.  I believe the site truly matches the company&apos;s mission.</p>
+                            </div>
                     </div>
 
-                    <div class="col-lg-4 col-med-4 col-sm-12 col-xs-12" id="unplugged">
-                        <img class="img-responsive" src="img/unplugged.png" alt="Unplugged thumbnail" style="width:75%">
-                            <h3><a href="unplugged/unplugged.html" target="_blank">Unplugged</a></h3>
-                                <p>A fully responsive website for a team building retreat. Offering meeting space, accomodations, dinning and leisure for 
-                                    teams wanting to connect and become a more cohesive unit.
-                                </p>
+                    <div class="col-12 col-lg-4 col-med-4 pt-2" id="jubilee">
+                            <img src="img/jubilee.png" class="card-img-top" alt="Jubilee Austen thumbnail">
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="jubilee/jubilee.html" target="_blank">Jubilee Austen</a></h4>
+                                <p class="card-text">A portfolio website for a front-end web developer.  
+                                        It&apos;s simple, clean and informative.</p>
+                            </div>
                     </div>
-                
+
+                    <div class="card col-12 col-med-4 col-lg-4" style="width: 18rem" id="unplugged">
+                            <img src="img/unplugged.png" class="card-img-top" alt="Unplugged thumbnail">
+                            <div class="card-body">
+                                    <h4 class="card-title"><a href="unplugged/unplugged.html" target="_blank">Unplugged</a></h4>
+                                <p class="card-text">A fully responsive website for a team building retreat. Offering meeting space, accomodations, dinning and leisure for 
+                                        teams wanting to connect and become a more cohesive unit.</p>
+                            </div>
+                    </div>
+
                 </div>
-        </section>
+            </section>
     
         
         <section id="about">
-            <div class="row">
-                <div class="col-lg-6 col-med-6 col-sm-12">
-                    <img src="img/summerstraface.jpg" alt="Summer Straface image" style="width:70%">
+                <div class="card mb-3" style="max-width:100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/summerstraface.jpg" class="card-img" alt="Summer Straface">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                              <h3 class="card-title">A Little About Me</h3>
+                              <p class="card-text">I started coding so I could have the means and the freedom to do 
+                                    the things I truly love.   I quickly discovered that coding was one 
+                                    of those things!  It allows me to showcase my organizational and 
+                                    creative problem solving skills, all while being pretty darn fun. </p>
+                                    <br>
+                                <p>I crave creativity and instant gratification to keep
+                                    myself engaged, and coding provides me with both.  I could have never imagined 
+                                    that writing hundreds of lines of a strange computer language would be so rewarding.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-med-6 col-sm-12">
-                    <h2> A little about me.</h2>
-                        <p>I started coding so I could have the means and the freedom to do 
-                            the things I truly love.   I quickly discovered that coding was one 
-                            of those things!  It allows me to showcase my organizational and 
-                            creative problem solving skills, all while being pretty dang fun. </p>
-                            <br>
-                        <p>I crave creativity and instant gratification to keep
-                            myself engaged, and coding provides me with both.  I  could have never imagined 
-                            that writing hundreds of lines of a strange computer language would be so rewarding.
-                        </p>
 
-                </div>
-            </div>
+
         </section>
 
         
@@ -128,13 +130,13 @@
                     </div>
                     <div class="col-sm-4"  id="meet">
                         <h4 class="text-center">Meet With Me</h4>
-                            <p class="text-center">Denver, CO</p>
+                            <p class="text-center">Durham, NC</p>
                     </div>
                 </div>
 
         </section>
 
-    </div> <!--Container div end-->
+    </div> 
             
            
     
@@ -143,6 +145,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>       
-   
+    <script>
+            $(function(){
+              $(document).scroll(function(){
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+              });
+            });
+            </script>
     </body>
 </html>

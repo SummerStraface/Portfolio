@@ -4,87 +4,84 @@ html {
 
 body {
     font-family: 'Roboto', sans-sarif;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
-#porfolio,  {
+/*#porfolio,  {
     height: auto;
 }
 
 
 /*****HEADER*****/
-header {
-    height:800px;
-    background: url('../img/hero-image.png');
+.jumbotron {
+    height:auto;
+    background: url('../img/hero-image2.png');
     background-size: cover;
+    background-position: center;
     
 }
 
 
-header h1{
-    font-family: 'Lato';
-    font-size: 2em;
+#mainNavbar .nav-link {
+    background:  rgb(192, 222, 217, 0.4);
     color: #095156;
-    background: rgba(240, 248, 246, 0.6);
-    padding-left: 10px;
-
-}
-
-header p {
-    font-family:'Roboto', sans-sarif;
-    font-size:5em;
-    font-weight:700;
-    max-width: 100%;
-    color: #095156;
-}    
-
-.holder {
-    background:rgba(240, 248, 246, 0.7);
-}
-nav {
-    float: right;
-    padding: 50px 35x;
-    
-}
-
-nav ul li {
-    display: inline;
-    background: rgba(240, 248, 246, 0.8);
-
-}
-
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.75em;
     font-weight: 700;
-    color: #095156;
-    padding-left: 50px;
-    padding-right: 45px;
+    
+    
+
 }
 
-header h2 {
+#mainNavbar .navbar-brand {
+    color: #095156;
+    font-size: 2.5rem;
+    font-weight:700;
+}
+
+#mainNavbar .nav-link:hover {
+    text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1); 
+} 
+
+.navbar.scrolled {
+    background: rgb(192, 222, 217);
+    transition: background 200ms;
+}
+
+.jumbotron h2 {
     width: 100%;
     clear: both;
     font-family: 'Lato';
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: 700;
     color: #5d998b;
-    position: relative;
-    top:40%;
-    left: 10px;
+    padding-top:10%;
+}
 
+.jumbotron p {
+    font-family:'Roboto', sans-sarif;
+    font-size:4.5rem;
+    font-weight:400;
+    max-width: 100%;
+    color: #095156;
+    
+} 
+
+.jumbotron span {
+    font-size: 5.5rem;
+    font-weight: 700;
 }
 
 .big-name {
-    font-size: 5.5rem;
+    font-size: 7rem;
     
     }
 
 /****PORTFOLIO****/
 #portfolio h2{
     font-family: 'Lato';
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
     text-align: center;
     color: #bdbf09;
@@ -97,7 +94,7 @@ header h2 {
 }
 
 #portfolio p {
-    font-size: 2em;
+    font-size: 1.5rem;
 }
 
 #rogue {
@@ -115,7 +112,7 @@ header h2 {
 }
 
 #rogue a:visited {
-   color: #6ead9e;
+   color: #bdbf09;
 }
 
 #unplugged {
@@ -133,7 +130,7 @@ header h2 {
 }
 
 #unplugged a:visited {
-   color: #6ead9e;
+   color: #bdbf09;
 }
 
 #jubilee {
@@ -151,7 +148,7 @@ header h2 {
 }
 
 #jubilee a:visited {
-   color: #6ead9e;
+   color: #bdbf09;
 }
 
 h1,h2,h3 {
@@ -160,26 +157,27 @@ h1,h2,h3 {
 /*****ABOUT*****/
 
 #about {
-    background: #fbfbfb;
     height: auto;
     width: 100%;
+    
 }
 
 #about img {
     border: 2px solid #6ead9e;
     border-radius: 50%;
     
+    
 }
-#about h2 {
+#about h3 {
     font-family: "Lato";
     font-size: 2.5rem;
     font-weight: 700;
-    color: #095156;
+    color: #5d998b;
 }
 
 #about p {
     color: #095156;
-    font-size: 2em;
+    font-size: 1.5rem;
 }
 /*******CONTACT*******/
 
@@ -213,99 +211,3 @@ h1,h2,h3 {
 color:#bdbf09;
 
 }
-
-
-@media only screen and (min-device-width : 768px) {
-    header {
-        height:auto;
-    }
-
-    header h1 {
-        font-size: 1.75em;
-    }
-
-    header h2 {
-        font-size: 5em;
-
-    }
-
-    header p {
-        font-size: 4.5em;
-
-    }
-
-    .big-name {
-        font-size: 5rem;
-        
-        }
-
-    #portfolio h2 {
-        font-size: 2.5em;
-    }
-
-    #portfolio p {
-        font-size: 1.5em;
-    }
-
-    #about h2 {
-        font-size: 2rem;
-    }
-
-    #about p {
-        font-size: 1.5rem;
-    }
-
-    #contact h2 {
-        font-size: 2.5em;
-    }
-
-
-    @media only screen and (min-device-width : 1400px) {
-        header {
-            height: 500px;
-        }
-    
-        header h1 {
-            font-size: 1.5em;
-        }
-    
-        header h2 {
-            font-size: 4em;
-    
-        }
-    
-        header p {
-            font-size: 3em;
-    
-        }
-
-        .big-name {
-            font-size: 4rem;
-            
-            }
-        .holder {
-            position: relative;
-            top: 60%;
-
-        }
-    
-        #portfolio h2 {
-            font-size: 1.5em;
-        }
-    
-        #portfolio p {
-            font-size: 1.25em;
-        }
-    
-        #about h2 {
-            font-size: 1.5rem;
-        }
-    
-        #about p {
-            font-size: 1.25rem;
-        }
-    
-        #contact h2 {
-            font-size: 2em;
-        }
-
