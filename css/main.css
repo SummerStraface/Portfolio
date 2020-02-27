@@ -53,7 +53,7 @@ body {
     width: 100%;
     clear: both;
     font-family: 'Lato';
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #5d998b;
     padding-top:10%;
@@ -61,7 +61,7 @@ body {
 
 .jumbotron p {
     font-family:'Roboto', sans-sarif;
-    font-size:4.5rem;
+    font-size:3rem;
     font-weight:400;
     max-width: 100%;
     color: #095156;
@@ -69,7 +69,7 @@ body {
 } 
 
 .jumbotron span {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
@@ -81,7 +81,7 @@ body {
 /****PORTFOLIO****/
 #portfolio h2{
     font-family: 'Lato';
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     color: #bdbf09;
@@ -177,7 +177,7 @@ h1,h2,h3 {
 
 #about p {
     color: #095156;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 /*******CONTACT*******/
 
@@ -211,3 +211,23 @@ h1,h2,h3 {
 color:#bdbf09;
 
 }
+
+@media (max-width: 1024px) {
+  #portfolio p {
+      font-size: 1rem;
+
+  } 
+  #portfolio h4 {
+      font-size: 1rem;
+  } 
+}
+
+@media (max-width: 1440px) {
+    #portfolio p {
+        font-size: 1rem;
+  
+    } 
+    #portfolio h4 {
+        font-size: 1rem;
+    } 
+  }
